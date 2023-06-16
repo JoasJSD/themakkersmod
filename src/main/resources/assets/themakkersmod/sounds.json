@@ -1,0 +1,10 @@
+{
+  "don": {
+    "sounds": [
+      {
+        "name": "themakkersmod:music_disk_-_don",
+        "stream": true
+      }
+    ]
+  }
+}

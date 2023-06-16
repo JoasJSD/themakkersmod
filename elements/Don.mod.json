@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Don",
+    "texture": "music_disc_don",
+    "description": "A tasteful song by the Makkers",
+    "creativeTab": {
+      "value": "CUSTOM:TheMakkersModTab"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:don"
+    },
+    "lengthInTicks": 1160,
+    "analogOutput": 6
+  }
+}

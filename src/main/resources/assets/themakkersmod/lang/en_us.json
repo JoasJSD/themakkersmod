@@ -1,1 +1,9 @@
-{}
+{
+  "item.themakkersmod.don": "Don",
+  "item.themakkersmod.knak_worst_cooked": "Cooked Knakworst",
+  "item_group.themakkersmod.the_makkers_mod_tab": "The Makkers Mod Tab",
+  "item.themakkersmod.don.desc": "A tasteful song by the Makkers",
+  "item.themakkersmod.breadwith_knakworst": "Bread with Knakworst",
+  "item.themakkersmod.knakworst_raw": "Raw Knakworst",
+  "subtitles.don": ""
+}

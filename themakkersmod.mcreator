@@ -1,9 +1,107 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BreadwithKnakworst",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breadwith_knakworst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/themakkersmod/models/item/breadwith_knakworst.json",
+          "src/main/java/net/mcreator/themakkersmod/item/BreadwithKnakworstItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheMakkersModTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_makkers_mod_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "KnakWorstCooked",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knak_worst_cooked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/themakkersmod/item/KnakWorstCookedItem.java",
+          "src/main/resources/assets/themakkersmod/models/item/knak_worst_cooked.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeBreadwithKnakworst",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_breadwith_knakworst",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/themakkersmod/recipes/recipe_breadwithknakworst.json"
+        ]
+      }
+    },
+    {
+      "name": "KnakworstRaw",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knakworst_raw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/themakkersmod/item/KnakworstRawItem.java",
+          "src/main/resources/assets/themakkersmod/models/item/knakworst_raw.json"
+        ]
+      }
+    },
+    {
+      "name": "Don",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "don",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/themakkersmod/models/item/don.json",
+          "src/main/java/net/mcreator/themakkersmod/item/DonItem.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "don",
+      "files": [
+        "music_disk_-_don"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.themakkersmod.don": "Don",
+      "item.themakkersmod.knak_worst_cooked": "Cooked Knakworst",
+      "item_group.themakkersmod.the_makkers_mod_tab": "The Makkers Mod Tab",
+      "item.themakkersmod.don.desc": "A tasteful song by the Makkers",
+      "item.themakkersmod.breadwith_knakworst": "Bread with Knakworst",
+      "item.themakkersmod.knakworst_raw": "Raw Knakworst",
+      "subtitles.don": ""
+    }
   },
   "foldersRoot": {
     "name": "~",
