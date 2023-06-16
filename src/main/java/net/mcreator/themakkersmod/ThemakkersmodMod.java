@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.themakkersmod.init.ThemakkersmodModSounds;
 import net.mcreator.themakkersmod.init.ThemakkersmodModItems;
+import net.mcreator.themakkersmod.init.ThemakkersmodModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,7 +51,7 @@ public class ThemakkersmodMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		ThemakkersmodModSounds.REGISTRY.register(bus);
-
+		ThemakkersmodModBlocks.REGISTRY.register(bus);
 		ThemakkersmodModItems.REGISTRY.register(bus);
 
 	}

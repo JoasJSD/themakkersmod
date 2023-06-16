@@ -79,6 +79,22 @@
           "src/main/java/net/mcreator/themakkersmod/item/DonItem.java"
         ]
       }
+    },
+    {
+      "name": "KnakworstOven",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knakworst_oven",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/themakkersmod/models/item/knakworst_oven.json",
+          "src/main/java/net/mcreator/themakkersmod/block/KnakworstOvenBlock.java",
+          "src/main/resources/assets/themakkersmod/models/block/knakworst_oven.json",
+          "src/main/resources/assets/themakkersmod/blockstates/knakworst_oven.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -95,6 +111,7 @@
   "language_map": {
     "en_us": {
       "item.themakkersmod.don": "Don",
+      "block.themakkersmod.knakworst_oven": "Knakworst Oven",
       "item.themakkersmod.knak_worst_cooked": "Cooked Knakworst",
       "item_group.themakkersmod.the_makkers_mod_tab": "The Makkers Mod Tab",
       "item.themakkersmod.don.desc": "A tasteful song by the Makkers",

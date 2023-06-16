@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themakkersmod:block/knakworst_oven_bottom",
+    "up": "themakkersmod:block/knakworst_oven_top",
+    "north": "themakkersmod:block/knakworst_oven_front",
+    "east": "themakkersmod:block/knakworst_oven_side",
+    "south": "themakkersmod:block/knakworst_oven_side",
+    "west": "themakkersmod:block/knakworst_oven_side",
+    "particle": "themakkersmod:block/knakworst_oven_bottom"
+  },
+  "render_type": "solid"
+}

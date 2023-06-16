@@ -8,7 +8,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.themakkersmod.item.KnakworstRawItem;
 import net.mcreator.themakkersmod.item.KnakWorstCookedItem;
@@ -22,4 +24,9 @@ public class ThemakkersmodModItems {
 	public static final RegistryObject<Item> KNAK_WORST_COOKED = REGISTRY.register("knak_worst_cooked", () -> new KnakWorstCookedItem());
 	public static final RegistryObject<Item> KNAKWORST_RAW = REGISTRY.register("knakworst_raw", () -> new KnakworstRawItem());
 	public static final RegistryObject<Item> DON = REGISTRY.register("don", () -> new DonItem());
+	public static final RegistryObject<Item> KNAKWORST_OVEN = block(ThemakkersmodModBlocks.KNAKWORST_OVEN);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

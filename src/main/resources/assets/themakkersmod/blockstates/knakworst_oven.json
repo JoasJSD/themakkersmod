@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "themakkersmod:block/knakworst_oven"
+    },
+    "facing=east": {
+      "model": "themakkersmod:block/knakworst_oven",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "themakkersmod:block/knakworst_oven",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "themakkersmod:block/knakworst_oven",
+      "y": 270
+    }
+  }
+}

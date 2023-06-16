@@ -22,6 +22,7 @@ public class ThemakkersmodModTabs {
 					tabData.accept(ThemakkersmodModItems.KNAK_WORST_COOKED.get());
 					tabData.accept(ThemakkersmodModItems.KNAKWORST_RAW.get());
 					tabData.accept(ThemakkersmodModItems.DON.get());
+					tabData.accept(ThemakkersmodModBlocks.KNAKWORST_OVEN.get().asItem());
 				}).withSearchBar());
 	}
 }
