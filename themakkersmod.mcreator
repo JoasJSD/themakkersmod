@@ -95,6 +95,210 @@
           "src/main/resources/assets/themakkersmod/blockstates/knakworst_oven.json"
         ]
       }
+    },
+    {
+      "name": "BlockofKnakworst",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockof_knakworst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/themakkersmod/block/BlockofKnakworstBlock.java",
+          "src/main/resources/assets/themakkersmod/models/item/blockof_knakworst.json",
+          "src/main/resources/assets/themakkersmod/models/block/blockof_knakworst.json",
+          "src/main/resources/assets/themakkersmod/blockstates/blockof_knakworst.json"
+        ]
+      }
+    },
+    {
+      "name": "CanofKnakworst",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canof_knakworst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/themakkersmod/models/item/canof_knakworst.json",
+          "src/main/java/net/mcreator/themakkersmod/item/CanofKnakworstItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CanOpener",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can_opener",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/themakkersmod/item/CanOpenerItem.java",
+          "src/main/resources/assets/themakkersmod/models/item/can_opener.json"
+        ]
+      }
+    },
+    {
+      "name": "KnakworstCanRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knakworst_can_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/themakkersmod/recipes/knakworst_can_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeCookedKnakworst",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_cooked_knakworst",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/themakkersmod/recipes/recipe_cooked_knakworst.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeCanOpener",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_can_opener",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/themakkersmod/recipes/recipe_can_opener.json"
+        ]
+      }
+    },
+    {
+      "name": "KnakworstButcher",
+      "type": "villagerprofession",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knakworst_butcher",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "KnakworstButcherTrades",
+      "type": "villagertrade",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knakworst_butcher_trades",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "KnakworstStoreLoottable",
+      "type": "loottable",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knakworst_store_loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/themakkersmod/loot_tables/chests/knakworst_store_loottable.json"
+        ]
+      }
+    },
+    {
+      "name": "KnakworstStore",
+      "type": "structure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knakworst_store",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/themakkersmod/world/features/KnakworstStoreFeature.java",
+          "src/main/resources/data/themakkersmod/worldgen/configured_feature/knakworst_store.json",
+          "src/main/resources/data/themakkersmod/worldgen/placed_feature/knakworst_store.json",
+          "src/main/resources/data/themakkersmod/forge/biome_modifier/knakworst_store_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "EatenMicrophone",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eaten_microphone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/themakkersmod/item/EatenMicrophoneItem.java",
+          "src/main/resources/assets/themakkersmod/models/item/eaten_microphone.json"
+        ]
+      }
+    },
+    {
+      "name": "Microphone",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microphone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/themakkersmod/models/item/microphone.json",
+          "src/main/java/net/mcreator/themakkersmod/item/MicrophoneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RecipeMicrophone",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_microphone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/themakkersmod/recipes/recipe_microphone.json"
+        ]
+      }
+    },
+    {
+      "name": "MoosStatue",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moos_statue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/themakkersmod/block/MoosStatueBlock.java",
+          "src/main/resources/assets/themakkersmod/models/block/moos_statue.json",
+          "src/main/resources/assets/themakkersmod/blockstates/moos_statue.json",
+          "src/main/resources/assets/themakkersmod/models/item/moos_statue.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeMoosStatue",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_moos_statue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/themakkersmod/recipes/recipe_moos_statue.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -110,14 +314,21 @@
   ],
   "language_map": {
     "en_us": {
+      "item.themakkersmod.eaten_microphone": "Eaten Microphone",
+      "entity.minecraft.villager.themakkersmod.knakworst_butcher": "Knakworst Butcher",
       "item.themakkersmod.don": "Don",
-      "block.themakkersmod.knakworst_oven": "Knakworst Oven",
+      "block.themakkersmod.moos_statue": "Moos Statue",
       "item.themakkersmod.knak_worst_cooked": "Cooked Knakworst",
-      "item_group.themakkersmod.the_makkers_mod_tab": "The Makkers Mod Tab",
       "item.themakkersmod.don.desc": "A tasteful song by the Makkers",
-      "item.themakkersmod.breadwith_knakworst": "Bread with Knakworst",
+      "subtitles.don": "",
+      "item.themakkersmod.canof_knakworst": "Can of Knakworst",
+      "item.themakkersmod.can_opener": "Can Opener",
+      "block.themakkersmod.knakworst_oven": "Knakworst Oven",
+      "block.themakkersmod.blockof_knakworst": "Block of Knakworst",
+      "item.themakkersmod.microphone": "Microphone",
+      "item_group.themakkersmod.the_makkers_mod_tab": "The Makkers Mod Tab",
       "item.themakkersmod.knakworst_raw": "Raw Knakworst",
-      "subtitles.don": ""
+      "item.themakkersmod.breadwith_knakworst": "Bread with Knakworst"
     }
   },
   "foldersRoot": {
@@ -127,8 +338,8 @@
   "workspaceSettings": {
     "modid": "themakkersmod",
     "modName": "The Makkers Mod",
-    "version": "1.0.0",
-    "author": "joasD, MCreator",
+    "version": "1.0.0.Beta",
+    "author": "JoasJSD, ieguana",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -138,6 +349,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.themakkersmod",
     "lockBaseModFiles": false
   },

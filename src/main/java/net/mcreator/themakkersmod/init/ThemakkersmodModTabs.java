@@ -23,6 +23,12 @@ public class ThemakkersmodModTabs {
 					tabData.accept(ThemakkersmodModItems.KNAKWORST_RAW.get());
 					tabData.accept(ThemakkersmodModItems.DON.get());
 					tabData.accept(ThemakkersmodModBlocks.KNAKWORST_OVEN.get().asItem());
+					tabData.accept(ThemakkersmodModBlocks.BLOCKOF_KNAKWORST.get().asItem());
+					tabData.accept(ThemakkersmodModItems.CANOF_KNAKWORST.get());
+					tabData.accept(ThemakkersmodModItems.CAN_OPENER.get());
+					tabData.accept(ThemakkersmodModItems.EATEN_MICROPHONE.get());
+					tabData.accept(ThemakkersmodModItems.MICROPHONE.get());
+					tabData.accept(ThemakkersmodModBlocks.MOOS_STATUE.get().asItem());
 				}).withSearchBar());
 	}
 }

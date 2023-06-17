@@ -1,10 +1,17 @@
 {
+  "item.themakkersmod.eaten_microphone": "Eaten Microphone",
+  "entity.minecraft.villager.themakkersmod.knakworst_butcher": "Knakworst Butcher",
   "item.themakkersmod.don": "Don",
-  "block.themakkersmod.knakworst_oven": "Knakworst Oven",
+  "block.themakkersmod.moos_statue": "Moos Statue",
   "item.themakkersmod.knak_worst_cooked": "Cooked Knakworst",
-  "item_group.themakkersmod.the_makkers_mod_tab": "The Makkers Mod Tab",
   "item.themakkersmod.don.desc": "A tasteful song by the Makkers",
-  "item.themakkersmod.breadwith_knakworst": "Bread with Knakworst",
+  "subtitles.don": "",
+  "item.themakkersmod.canof_knakworst": "Can of Knakworst",
+  "item.themakkersmod.can_opener": "Can Opener",
+  "block.themakkersmod.knakworst_oven": "Knakworst Oven",
+  "block.themakkersmod.blockof_knakworst": "Block of Knakworst",
+  "item.themakkersmod.microphone": "Microphone",
+  "item_group.themakkersmod.the_makkers_mod_tab": "The Makkers Mod Tab",
   "item.themakkersmod.knakworst_raw": "Raw Knakworst",
-  "subtitles.don": ""
+  "item.themakkersmod.breadwith_knakworst": "Bread with Knakworst"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "themakkersmod:item/can_of_opener"
+  }
+}

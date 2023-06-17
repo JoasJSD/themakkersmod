@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "themakkersmod:block/moos_wat_vind_jij_van_knakworst",
+    "particle": "themakkersmod:block/moos_wat_vind_jij_van_knakworst"
+  },
+  "render_type": "solid"
+}

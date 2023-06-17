@@ -1,0 +1,16 @@
+{
+  "_fv": 43,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Knakworst Butcher",
+    "pointOfInterest": {
+      "value": "CUSTOM:KnakworstOven"
+    },
+    "actionSound": {
+      "value": "block.smoker.smoke"
+    },
+    "hat": "None",
+    "professionTextureFile": "knakworst_butcher.png",
+    "zombifiedProfessionTextureFile": "knakworst_butcher.png"
+  }
+}

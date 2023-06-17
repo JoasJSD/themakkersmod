@@ -29,8 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.themakkersmod.init.ThemakkersmodModVillagerProfessions;
 import net.mcreator.themakkersmod.init.ThemakkersmodModSounds;
 import net.mcreator.themakkersmod.init.ThemakkersmodModItems;
+import net.mcreator.themakkersmod.init.ThemakkersmodModFeatures;
 import net.mcreator.themakkersmod.init.ThemakkersmodModBlocks;
 
 import java.util.function.Supplier;
@@ -54,6 +56,8 @@ public class ThemakkersmodMod {
 		ThemakkersmodModBlocks.REGISTRY.register(bus);
 		ThemakkersmodModItems.REGISTRY.register(bus);
 
+		ThemakkersmodModFeatures.REGISTRY.register(bus);
+		ThemakkersmodModVillagerProfessions.PROFESSIONS.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

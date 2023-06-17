@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "2": {
+      "item": "themakkersmod:microphone"
+    },
+    "3": {
+      "item": "themakkersmod:blockof_knakworst"
+    },
+    "4": {
+      "item": "themakkersmod:blockof_knakworst"
+    },
+    "5": {
+      "item": "themakkersmod:blockof_knakworst"
+    },
+    "6": {
+      "item": "themakkersmod:knak_worst_cooked"
+    },
+    "8": {
+      "item": "themakkersmod:knak_worst_cooked"
+    }
+  },
+  "result": {
+    "item": "themakkersmod:moos_statue",
+    "count": 1
+  }
+}

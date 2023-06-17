@@ -1,0 +1,9 @@
+{
+  "parent": "themakkersmod:custom/moosstatue2",
+  "textures": {
+    "all": "themakkersmod:block/moosstatuetexture",
+    "particle": "themakkersmod:block/moosstatuetexture",
+    "missing": "themakkersmod:block/moosstatuetexture"
+  },
+  "render_type": "solid"
+}

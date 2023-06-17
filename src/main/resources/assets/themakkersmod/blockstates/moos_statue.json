@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "themakkersmod:block/moos_statue"
+    },
+    "facing=east": {
+      "model": "themakkersmod:block/moos_statue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "themakkersmod:block/moos_statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "themakkersmod:block/moos_statue",
+      "y": 270
+    }
+  }
+}

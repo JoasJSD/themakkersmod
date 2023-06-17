@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "moos_wat_vind_jij_van_knakworst"
+      },
+      "name": "default"
+    }
+  }
+}

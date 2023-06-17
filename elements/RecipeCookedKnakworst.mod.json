@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:KnakworstRaw"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:KnakWorstCooked"
+    },
+    "name": "recipe_cooked_knakworst",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "themakkersmod:can_opener"
+    },
+    {
+      "item": "themakkersmod:canof_knakworst"
+    }
+  ],
+  "result": {
+    "item": "themakkersmod:knakworst_raw",
+    "count": 5
+  }
+}
