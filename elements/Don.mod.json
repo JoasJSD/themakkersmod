@@ -2,9 +2,9 @@
   "_fv": 43,
   "_type": "musicdisc",
   "definition": {
-    "name": "Don",
+    "name": "Music Disk - Don",
     "texture": "music_disc_don",
-    "description": "A tasteful song by the Makkers",
+    "description": "Ohohh Don",
     "creativeTab": {
       "value": "CUSTOM:TheMakkersModTab"
     },
