@@ -35,11 +35,11 @@ public class KnakworstStoreFeature extends Feature<NoneFeatureConfiguration> {
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("themakkersmod", "knakworststore4"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("themakkersmod", "knakworststore5"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 10000) {
+		if ((context.random().nextInt(1000000) + 1) <= 5000) {
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
