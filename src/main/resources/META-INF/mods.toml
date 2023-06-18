@@ -7,7 +7,7 @@ modId="themakkersmod"
 version="1.0.0."
 displayName="The Makkers Mod"
 credits="Mod created by JoasJSD & ieguana"
-displayURL="https://mcreator.net"
+displayURL="https://github.com/JoasJSD/themakkersmod"
 authors="JoasJSD, ieguana"
 
 [[dependencies.themakkersmod]]
