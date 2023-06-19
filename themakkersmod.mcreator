@@ -321,6 +321,20 @@
         ]
       },
       "path": "~/Version 1.0.0/Recipes"
+    },
+    {
+      "name": "RecipeCookedKnakworstFurnace",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_cooked_knakworst_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/themakkersmod/recipes/recipe_cooked_knakworst_furnace.json"
+        ]
+      },
+      "path": "~/Version 1.0.1/Recipes"
     }
   ],
   "variable_elements": [],
@@ -410,6 +424,15 @@
           },
           {
             "name": "Blocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Version 1.0.1",
+        "children": [
+          {
+            "name": "Recipes",
             "children": []
           }
         ]
