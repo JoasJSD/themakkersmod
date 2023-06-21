@@ -39,9 +39,9 @@
               "value": "CUSTOM:CanofKnakworst"
             },
             "countOffer": 1,
-            "level": 1,
-            "maxTrades": 10,
-            "xp": 5,
+            "level": 2,
+            "maxTrades": 8,
+            "xp": 8,
             "priceMultiplier": 0.05
           },
           {
@@ -55,6 +55,42 @@
             "countPrice2": 1,
             "offer": {
               "value": "CUSTOM:BlockofKnakworst"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 5,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:KnakWorstCooked"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BingoCard"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:KnakworstRaw"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:JeremysCloverH"
             },
             "countOffer": 1,
             "level": 1,

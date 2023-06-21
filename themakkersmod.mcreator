@@ -335,6 +335,50 @@
         ]
       },
       "path": "~/Version 1.0.1/Recipes"
+    },
+    {
+      "name": "BingoCard",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bingo_card",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/themakkersmod/models/item/bingo_card.json",
+          "src/main/java/net/mcreator/themakkersmod/item/BingoCardItem.java"
+        ]
+      },
+      "path": "~/Version 1.1.0/Items"
+    },
+    {
+      "name": "JeremysCloverH",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jeremys_clover_h",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/themakkersmod/item/JeremysCloverHItem.java",
+          "src/main/resources/assets/themakkersmod/models/item/jeremys_clover_h.json"
+        ]
+      },
+      "path": "~/Version 1.1.0/Items"
+    },
+    {
+      "name": "TheBingoUpdate",
+      "type": "tag",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_bingo_update",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/themakkersmod/tags/items/the_bingo_update.json"
+        ]
+      },
+      "path": "~/Version 1.1.0/Misc"
     }
   ],
   "variable_elements": [],
@@ -354,11 +398,13 @@
       "entity.minecraft.villager.themakkersmod.knakworst_butcher": "Knakworst Butcher",
       "item.themakkersmod.don": "Music Disk",
       "block.themakkersmod.moos_statue": "Moos Statue",
+      "item.themakkersmod.jeremys_clover_h": "Jeremy\u0027s Clover King",
       "item.themakkersmod.knak_worst_cooked": "Cooked Knakworst",
       "item.themakkersmod.don.desc": "Makkers - Ohohh Don",
       "subtitles.don": "",
       "item.themakkersmod.canof_knakworst": "Can of Knakworst",
       "item.themakkersmod.can_opener": "Can Opener",
+      "item.themakkersmod.bingo_card": "Bingo Card",
       "block.themakkersmod.knakworst_oven": "Knakworst Oven",
       "block.themakkersmod.blockof_knakworst": "Block of Knakworst",
       "item.themakkersmod.microphone": "Microphone",
@@ -371,11 +417,13 @@
       "entity.minecraft.villager.themakkersmod.knakworst_butcher": "Knakworst Slager",
       "item.themakkersmod.don": "Muziekplaat",
       "block.themakkersmod.moos_statue": "Moos Standbeeld",
+      "item.themakkersmod.jeremys_clover_h": "Jeremy\u0027s Clover King",
       "item.themakkersmod.knak_worst_cooked": "Gekookte Knakworst",
       "item.themakkersmod.don.desc": "Makkers - Ohohh Don",
       "subtitles.don": "",
       "item.themakkersmod.canof_knakworst": "Blikje Knakworst",
       "item.themakkersmod.can_opener": "Blikopener",
+      "item.themakkersmod.bingo_card": "Bingo Card",
       "block.themakkersmod.knakworst_oven": "Knakworst Oven",
       "block.themakkersmod.blockof_knakworst": "Blok van Knakworst",
       "item.themakkersmod.microphone": "Microfoon",
@@ -388,10 +436,12 @@
       "entity.minecraft.villager.themakkersmod.knakworst_butcher": "Knakworstmetzger",
       "item.themakkersmod.don": "Schallplatte",
       "block.themakkersmod.moos_statue": "Moos-Statur",
+      "item.themakkersmod.jeremys_clover_h": "Jeremy\u0027s Clover King",
       "item.themakkersmod.knak_worst_cooked": "Gebratene Knakworst",
       "item.themakkersmod.don.desc": "Makkers – Ohohh Don",
       "item.themakkersmod.canof_knakworst": "Knakworstdose",
       "item.themakkersmod.can_opener": "Dosenöffner",
+      "item.themakkersmod.bingo_card": "Bingo Card",
       "block.themakkersmod.knakworst_oven": "Knakworst-Ofen",
       "block.themakkersmod.blockof_knakworst": "Knakworstblock",
       "item.themakkersmod.microphone": "Mikrofon",
@@ -436,13 +486,26 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Version 1.1.0",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Misc",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "themakkersmod",
     "modName": "The Makkers Mod",
-    "version": "1.0.0.",
+    "version": "1.1.0.B",
     "author": "JoasJSD, ieguana",
     "websiteURL": "https://github.com/JoasJSD/themakkersmod",
     "license": "Academic Free License v3.0",

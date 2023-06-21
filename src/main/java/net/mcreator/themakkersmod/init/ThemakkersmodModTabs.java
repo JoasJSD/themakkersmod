@@ -29,6 +29,8 @@ public class ThemakkersmodModTabs {
 					tabData.accept(ThemakkersmodModItems.EATEN_MICROPHONE.get());
 					tabData.accept(ThemakkersmodModItems.MICROPHONE.get());
 					tabData.accept(ThemakkersmodModBlocks.MOOS_STATUE.get().asItem());
+					tabData.accept(ThemakkersmodModItems.BINGO_CARD.get());
+					tabData.accept(ThemakkersmodModItems.JEREMYS_CLOVER_H.get());
 				}).withSearchBar());
 	}
 }

@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BingoCard"
+      },
+      {
+        "value": "CUSTOM:JeremysCloverH"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "the_bingo_update",
+    "namespace": "mod"
+  }
+}

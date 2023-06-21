@@ -15,11 +15,13 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.themakkersmod.item.MicrophoneItem;
 import net.mcreator.themakkersmod.item.KnakworstRawItem;
 import net.mcreator.themakkersmod.item.KnakWorstCookedItem;
+import net.mcreator.themakkersmod.item.JeremysCloverHItem;
 import net.mcreator.themakkersmod.item.EatenMicrophoneItem;
 import net.mcreator.themakkersmod.item.DonItem;
 import net.mcreator.themakkersmod.item.CanofKnakworstItem;
 import net.mcreator.themakkersmod.item.CanOpenerItem;
 import net.mcreator.themakkersmod.item.BreadwithKnakworstItem;
+import net.mcreator.themakkersmod.item.BingoCardItem;
 import net.mcreator.themakkersmod.ThemakkersmodMod;
 
 public class ThemakkersmodModItems {
@@ -35,6 +37,8 @@ public class ThemakkersmodModItems {
 	public static final RegistryObject<Item> EATEN_MICROPHONE = REGISTRY.register("eaten_microphone", () -> new EatenMicrophoneItem());
 	public static final RegistryObject<Item> MICROPHONE = REGISTRY.register("microphone", () -> new MicrophoneItem());
 	public static final RegistryObject<Item> MOOS_STATUE = block(ThemakkersmodModBlocks.MOOS_STATUE);
+	public static final RegistryObject<Item> BINGO_CARD = REGISTRY.register("bingo_card", () -> new BingoCardItem());
+	public static final RegistryObject<Item> JEREMYS_CLOVER_H = REGISTRY.register("jeremys_clover_h", () -> new JeremysCloverHItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
